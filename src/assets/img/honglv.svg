@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>honglv-sel</title>
+    <g id="Hydraswap" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="honglv-sel">
+            <path d="M20,0.5 C20.4142136,0.5 20.7892136,0.667893219 21.0606602,0.939339828 C21.3321068,1.21078644 21.5,1.58578644 21.5,2 L21.5,2 L21.5,20 C21.5,20.4142136 21.3321068,20.7892136 21.0606602,21.0606602 C20.7892136,21.3321068 20.4142136,21.5 20,21.5 L20,21.5 L2,21.5 C1.58578644,21.5 1.21078644,21.3321068 0.939339828,21.0606602 C0.667893219,20.7892136 0.5,20.4142136 0.5,20 L0.5,20 L0.5,2 C0.5,1.58578644 0.667893219,1.21078644 0.939339828,0.939339828 C1.21078644,0.667893219 1.58578644,0.5 2,0.5 L2,0.5 Z" id="Rectangle-2备份" stroke="#FFFFFF" opacity="0.05"></path>
+            <path d="M3.91666667,3 L10.0833333,3 C10.5895944,3 11,3.41040565 11,3.91666667 L11,11 L11,11 L3,11 L3,3.91666667 C3,3.41040565 3.41040565,3 3.91666667,3 Z" id="矩形" fill="#CD2DE1" opacity="0.300000012"></path>
+            <path d="M3,11 L11,11 L11,18.0833333 C11,18.5895944 10.5895944,19 10.0833333,19 L3.91666667,19 C3.41040565,19 3,18.5895944 3,18.0833333 L3,11 L3,11 Z" id="矩形备份" fill="#07EBAD" opacity="0.300000012"></path>
+            <rect id="矩形" fill-opacity="0.2" fill="#FFFFFF" x="13" y="3.25" width="6" height="1.83333333" rx="0.916666667"></rect>
+            <rect id="矩形备份-2" fill-opacity="0.2" fill="#FFFFFF" x="13" y="6.6875" width="6" height="1.83333333" rx="0.916666667"></rect>
+            <rect id="矩形备份-3" fill-opacity="0.2" fill="#FFFFFF" x="13" y="13.5625" width="6" height="1.83333333" rx="0.916666667"></rect>
+            <rect id="矩形备份-5" fill-opacity="0.2" fill="#FFFFFF" x="13" y="10.125" width="6" height="1.83333333" rx="0.916666667"></rect>
+            <rect id="矩形备份-4" fill-opacity="0.2" fill="#FFFFFF" x="13" y="17" width="6" height="1.83333333" rx="0.916666667"></rect>
+        </g>
+    </g>
+</svg>

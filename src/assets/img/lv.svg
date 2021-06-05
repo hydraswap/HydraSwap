@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>lv-sel</title>
+    <g id="Hydraswap" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lv-sel">
+            <path d="M20,0.5 C20.4142136,0.5 20.7892136,0.667893219 21.0606602,0.939339828 C21.3321068,1.21078644 21.5,1.58578644 21.5,2 L21.5,2 L21.5,20 C21.5,20.4142136 21.3321068,20.7892136 21.0606602,21.0606602 C20.7892136,21.3321068 20.4142136,21.5 20,21.5 L20,21.5 L2,21.5 C1.58578644,21.5 1.21078644,21.3321068 0.939339828,21.0606602 C0.667893219,20.7892136 0.5,20.4142136 0.5,20 L0.5,20 L0.5,2 C0.5,1.58578644 0.667893219,1.21078644 0.939339828,0.939339828 C1.21078644,0.667893219 1.58578644,0.5 2,0.5 L2,0.5 Z" id="Rectangle-2备份" stroke="#FFFFFF" opacity="0.05"></path>
+            <path d="M4,3 L10,3 C10.5522847,3 11,3.44771525 11,4 L11,18 C11,18.5522847 10.5522847,19 10,19 L4,19 C3.44771525,19 3,18.5522847 3,18 L3,4 C3,3.44771525 3.44771525,3 4,3 Z" id="矩形备份" fill="#07EBAD" opacity="0.3"></path>
+            <rect id="矩形" fill="#FFFFFF" opacity="0.05" x="13" y="3.25" width="6" height="1.83333333" rx="0.916666667"></rect>
+            <rect id="矩形备份-2" fill="#FFFFFF" opacity="0.05" x="13" y="6.6875" width="6" height="1.83333333" rx="0.916666667"></rect>
+            <rect id="矩形备份-3" fill="#FFFFFF" opacity="0.05" x="13" y="13.5625" width="6" height="1.83333333" rx="0.916666667"></rect>
+            <rect id="矩形备份-5" fill="#FFFFFF" opacity="0.05" x="13" y="10.125" width="6" height="1.83333333" rx="0.916666667"></rect>
+            <rect id="矩形备份-4" fill="#FFFFFF" opacity="0.05" x="13" y="17" width="6" height="1.83333333" rx="0.916666667"></rect>
+        </g>
+    </g>
+</svg>

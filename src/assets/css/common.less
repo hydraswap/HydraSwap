@@ -1,0 +1,344 @@
+@font-face {
+  font-family: 'Rubik-Medium';
+  src: url('../fonts/Rubik-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Rubik-Regular';
+  src: url('../fonts/Rubik-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'opensans';
+  src: url('../fonts/OpenSans.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/OpenSans.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/OpenSans.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/OpenSans.woff') format('woff'),
+    /* Pretty Modern Browsers */ url('../fonts/OpenSans.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/OpenSans.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+html,
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+dl,
+dt,
+dd,
+table,
+tr,
+td,
+th,
+tbody,
+thead,
+span,
+i,
+a,
+input,
+button,
+textarea {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box !important;
+  // font-family: 'Rubik-text';
+  font-family: 'Rubik-Regular', 'opensans', 'arial';
+  // font-family: (-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  font-size: inherit;
+}
+ul {
+  list-style: none;
+}
+input,
+button,
+textarea {
+  outline: none;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #07EBAD;
+}
+
+.h5-box {
+  display: none;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.pc-box {
+  display: block;
+  width: 100%;
+}
+
+.loading-icon {
+  width: 120px;
+  height: 120px;
+}
+
+.modal-icon-close {
+  width: 14px;
+  height: 14px;
+  fill: #fff;
+}
+
+.gradient-input-back {
+  /* background: linear-gradient(270deg, rgba(#00ffb7, 0.5) 0%, rgba(#00bfff, 0.5) 50%, rgba(#ff1a7f, 0.5) 100%); */
+  /* background: red; */
+  height: 36px;
+  padding: 2px;
+  background: linear-gradient(270deg, rgba(#00ffb7, 0.5) 0%, rgba(#00bfff, 0.5) 50%, rgba(#ff1a7f, 0.5) 100%);
+  border-radius: 18px;
+  margin-top: 20px;
+}
+
+.gradient-input-content {
+  width: 100%;
+  height: 100%;
+  background: #02101D;
+  border-radius: 18px;
+  border: none;
+}
+
+.gradient-btn-back {
+  background: linear-gradient(270deg, #00FFB7 0%, #00BFFF 50%, #FF1A7F 100%) !important;
+  font-size: 16px;
+  color: #fff !important;
+  height: 42px;
+  border-radius: 21px;
+  border: none;
+  &:hover {
+    background: linear-gradient(270deg, #00ff9d 0%, #00f1ff 50%, #ff0071 100%) !important;
+    color: #fff !important;
+    text-shadow: 0px 2px 15px rgba(0, 0, 0, 0.32);
+  }
+  &:disabled {
+    background: rgba(255, 255, 255, 0.1) !important;
+    color: rgba(255, 255, 255, 0.4) !important;
+    &:hover {
+      background: rgba(255, 255, 255, 0.1) !important;
+      color: rgba(255, 255, 255, 0.4) !important;
+    }
+  }
+}
+
+
+.token-account-select {
+  white-space: nowrap;
+  .ant-select-selector {
+    font-size: 12px;
+    border: none !important;
+  }
+  .ant-select-single.ant-select-show-arrow .ant-select-selection-item, .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+    padding-right: 0px;
+  }
+}
+
+
+.select-wallet {
+  .wallet-item {
+    width: 390px;
+    height: 60px;
+    background: rgba(#07ebad, 0.5);
+    border-radius: 10px;
+    padding: 1px;
+    cursor: pointer;
+    margin-top: 20px;
+    &:first-child {
+      margin-top: 0px;
+    }
+    &.active,
+    &:hover {
+      padding: 2px;
+      background: linear-gradient(270deg, #00ffb7 0%, #00bfff 50%, #ff1a7f 100%);
+    }
+    > div {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      background: #000;
+      display: flex;
+      align-items: center;
+      padding: 0px 20px;
+      img {
+        width: 32px;
+        height: 32px;
+        margin-right: 16px;
+      }
+      span {
+        font-size: 16px;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.wallet-info {
+  text-align: center;
+  .platform {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .address {
+    font-size: 20px;
+    margin-top: 32px;
+  }
+  .copy-and-view {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+    a {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.6);
+      cursor: pointer;
+      .icon {
+        width: 12px;
+        height: 12px;
+        fill: #fff;
+        margin-right: 14px;
+      }
+    }
+  }
+
+  .disconnect-btn {
+    width: 186px;
+    height: 48px;
+    font-size: 16px;
+  }
+}
+
+.tradingview-chart {
+  height: 652px;
+}
+
+.connect-wallet-btn {
+  border-radius: 8px;
+  height: 36px;
+  padding: 0px 20px;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  .icon {
+    width: 16px;
+    height: 16px;
+    fill: #fff;
+    margin-right: 6px;
+    &.icon-down {
+      width: 14px;
+      height: 14px;
+      margin-right: 0px;
+      margin-left: 2px;
+    }
+  }
+  .platform {
+    display: inline-block;
+    // height: 18px;
+    padding-right: 8px;
+    border-right: 1px solid #fff;
+    margin-right: 8px;
+  }
+  .address {
+    white-space: nowrap;
+    display: inline-block;
+    // height: 18px;
+  }
+  .connect-text {
+    margin-left: 8px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .tradingview-chart {
+    height: 594px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .pc-box {
+    display: none;
+  }
+
+  .h5-box {
+    display: block;
+  }
+
+  .select-wallet {
+    .wallet-item {
+      width: 100%;
+      height: 40px;
+      > div {
+        img {
+          width: 24px;
+          height: 24px;
+        }
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .connect-wallet-btn {
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, 0%);
+    z-index: 9999;
+  }
+
+  .tradingview-chart {
+    height: 300px;
+    width: 100%;
+  }
+}
+.ant-popover-address .ant-popover-content .ant-popover-inner .ant-popover-inner-content div a{
+  display: flex;
+  align-items: center;
+}
+.ant-popover-address .ant-popover-content .ant-popover-inner .ant-popover-inner-content div a span:nth-of-type(2){
+  width: 300px;
+  overflow:hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+}
+.gradient-input-content input{
+  text-align: right;
+}
+
+// .add-coustom-market{
+//   .ant-input{
+//     border-style: solid;
+//     border-image:linear-gradient(270deg,#00ff9d 0%,#00f1ff 50%,#ff0071 100%) !important;
+//     border-width: 1px;
+//   }
+// }
+
+
